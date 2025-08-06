@@ -26,8 +26,11 @@ SECRET_KEY = 'django-insecure-s^x_u!itekxd=@a3o3zv4d%hw$j6d#2v358wgltxl8rc(-^t&p
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
-
+#option (for development)
+import os
+STATICFILES_DIRS =[
+    os.path.join(BASE_DIR,'your_app/static');
+]
 # Application definition
 
 INSTALLED_APPS = [
