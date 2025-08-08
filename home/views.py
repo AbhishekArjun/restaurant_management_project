@@ -1,5 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
-def contact_us(request):
-    retrun render(request, "reservations.html")
+def homepage(request):
+    return render(request, 'homepage.html')
