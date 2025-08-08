@@ -1,6 +1,7 @@
 from django.shortcuts import render
-
+from .models import Restaurant
 # Create your views here.
 def home(request):
-    return HttpRespones("Welcome to Tasty Bites")
+    restaurant = Restaurant.objects.first()
+    retrun render(request, 'homepage.html', { 'restaurant':restaurant})
     
