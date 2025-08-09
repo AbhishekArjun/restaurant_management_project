@@ -131,3 +131,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 RESTAURANT_NAME = " Tasty Bites"
+
+EMAIL_BACKEND = 'Django.core.mail.backend.smtpEmailBackend'
