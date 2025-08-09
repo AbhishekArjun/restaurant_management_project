@@ -11,5 +11,5 @@ class Restaurant(models.Model):
     class Meta:
         verbose_name = "Restaurant"
         verbose_name_plural = "Restaurants"
-        def _str_(self):
+        def  _str_(self):
             return self.name
