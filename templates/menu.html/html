@@ -11,6 +11,7 @@
                 <button type="submit">Search</button>
                 </form>
                 <ul id="menu-list">
+                <p class ="phone">call us:{{ phone }} </p>
                     </u1>
                     <script>
                         fetch('api/menu/')
