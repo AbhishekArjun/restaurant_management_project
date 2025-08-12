@@ -3,3 +3,4 @@ from .model import Restaurant, MenuItem
 # Register your models here.
 admin.site.register(Restaurant)
 admin.site.register(MenuItem)
+admin.site.register(OrderItem)
