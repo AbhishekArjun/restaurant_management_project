@@ -12,6 +12,6 @@ class Restaurant(models.Model):
         verbose_name = "Restaurant"
         verbose_name_plural = "Restaurants"
         def  _str_(self):
-            return self.title
+            return self.name
             
             
