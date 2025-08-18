@@ -5,4 +5,4 @@ class Restaurant(model.Model):
     name = models.CharField(max_length=100)
     phone = models.CharField(max_length=20)
     def_str_(self):
-        retrun self.name
+        return self.name
