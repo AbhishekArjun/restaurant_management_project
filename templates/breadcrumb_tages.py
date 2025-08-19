@@ -11,5 +11,5 @@ def breadcrumbs(context):
     for part in path_parts:
         url_accumulator += '/' + part
         breadcrumbs_list.append({
-            return:
+            return
         })
