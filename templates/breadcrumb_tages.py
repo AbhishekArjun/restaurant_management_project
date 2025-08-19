@@ -1,6 +1,6 @@
 from django import template
 
-register =template.Library()
+register = template.Library()
 @register.inclusion_tag('partials/breadcrumbs.html', takes_context=True)
 def breadcrumbs(context):
     request = context['request']
@@ -11,5 +11,5 @@ def breadcrumbs(context):
     for part in path_parts:
         url_accumulator += '/' + part
         breadcrumbs_list.append({
-            return
+            return:
         })
