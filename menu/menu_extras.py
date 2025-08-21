@@ -9,3 +9,4 @@ def coming_soon(is_available):
    otherwise return an empty string.
    """
    return "" if is_available else "Coming Soon" 
+   return register
