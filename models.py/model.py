@@ -6,4 +6,4 @@ class Menu(models.Model):
     image = models.ImageField(upload_to='menu_images/', blank=True, null=True)
 
     def _str_(self):
-        return self.name
+        return self.email
