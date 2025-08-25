@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Our Story</h1>
+<p>
+    Welcome to FlovorTown!
+    </p>
+    <p>
+        Whether you're here for a quick bite or a family celebration,
+        we're honored to share our story-and our food-with you.
+
+    </p>
+    {% endblock %}
