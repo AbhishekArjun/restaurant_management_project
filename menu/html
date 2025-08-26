@@ -16,3 +16,6 @@
    onkeyup="filterMenu()"
    />
    
+   </footer>
+   </body>
+   </html>
