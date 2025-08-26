@@ -7,3 +7,12 @@
 </head>
 <body>
 <div class="menu-container">
+<h1>Our Menu</h1>
+
+<input
+   type="text"
+   id="searchchBar"
+   placeholder="Search for a dish..."
+   onkeyup="filterMenu()"
+   />
+   
