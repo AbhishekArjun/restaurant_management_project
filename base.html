@@ -2,21 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>{%block title %}MY Website{% endblock %}</title>
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-        <img src="{% static 'image/logo.png' %}" class="logo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}My Restaurant{% endblock %}</title>
+        {% load static %}
         </head>
         <body>
 
-            <div class="content">
-                {% block content %}
-                {% endblock %}
-                </div>
+            {% block content %}
+            {% endblock %}
 
-                <footer>
-                    <p>&copy;
-                        </div>
-                        </footer>
+            <footer style="text-align:center; margin-top:30px; padding:10px; background:#f9f9f9; color:#555;">
+                </footer>
 
-                        </body>
-                        </html>
+                </body>
+</html>
