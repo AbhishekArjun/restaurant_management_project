@@ -1,0 +1,11 @@
+.daily-specials{
+    background: #fff8f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.daily-specials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #d353400;
+}
