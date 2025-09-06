@@ -10,10 +10,6 @@
     color: #d353400;
 }
 
-.news-announcement{
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
 
 .welocome-banner{
 
