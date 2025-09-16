@@ -14,4 +14,4 @@ class OrdersConfig(AppConfig):
                 OrderStatus.objects.get_or_create(name=status)
                 except OperationalError:
                     pass
-                   return:
+                   
