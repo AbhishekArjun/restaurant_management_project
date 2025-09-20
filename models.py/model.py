@@ -6,4 +6,4 @@ class Menu(models.Model):
     image = models.ImageField(upload_to='menu_images/', blank=True, null=True)
     is_available = models.models.BooleanField(default=True)
     def _str_(self):
-        return self.email
+        return self
