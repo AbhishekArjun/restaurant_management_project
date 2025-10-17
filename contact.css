@@ -42,9 +42,7 @@ form {
 
  input:focus, textarea:focus {
     border-color: #2c7a7b;
- }
- input:focus, textarea:focus{
-    border-color:pink ;
+
  }
 
  button {
